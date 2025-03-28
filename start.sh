@@ -26,7 +26,7 @@ done
 # Phần 3: Gọi API Render (phiên bản đơn giản)
 # ==========================================
 echo "Đang kích hoạt deploy trên Render..."
-curl -X GET "https://api.render.com/deploy/srv-cvhjvtiqgecs73d1hot0?key=bhpT4WemXMo" -w "\nHTTP Status: %{http_code}\n"
+curl -X GET "https://api.render.com/deploy/srv-cvij079r0fns73afmom0?key=nqHzj7ZgMrE" -w "\nHTTP Status: %{http_code}\n"
 
 wait
 
@@ -34,4 +34,3 @@ wait
 # Phần 4: Kết thúc
 # ==========================================
 echo "Hoàn thành quy trình"
-exit 0
