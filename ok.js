@@ -1,5 +1,5 @@
 const TelegramBot=require('node-telegram-bot-api'),{exec}=require('child_process'),fs=require('fs'),path=require('path');
-const C={admin:'adminid1.txt',group:'groupid.txt',blacklist:'blacklist.txt',token:'token1.txt',script:'GEOBLOCK.sh'};
+const C={admin:'adminid1.txt',group:'groupid.txt',blacklist:'blacklist.txt',token:'token1.txt',script:'killer.sh'};
 let t,a=new Set(),g=new Set(),b=[],y=!0,q=[],x=new Map(),m=path.basename(C.script,'.sh').toUpperCase();
 
 // Hàm load cấu hình từ file
