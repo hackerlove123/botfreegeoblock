@@ -14,7 +14,7 @@ const l=()=>{
     }catch(e){console.error(e.message);process.exit(1);}
 };l();
 
-const bot=new TelegramBot(t,{polling:!0}),L={slot:1,concurrent:3,maxTime:200};
+const bot=new TelegramBot(t,{polling:!0}),L={slot:1,concurrent:3,maxTime:120};
 const h=`📜 Hướng dẫn:\n<code>https://site.com 120</code>\n⚠️ Tối đa: ${L.maxTime}s\nAdmin: <code>/pkill</code>, <code>/on</code>, <code>/off</code>\nLiên hệ: @revenvenger`;
 
 // Hàm đếm số attack của user
